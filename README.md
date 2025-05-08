@@ -1,1 +1,288 @@
-# Digital-Portfolio-1
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neha Dhanawade - Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg,#000000dd, #0a0a2a);
+            color: #ffffff;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 30px 0;
+            border-bottom: 2px solid #1e90ff;
+        }
+        
+        .profile {
+            display: flex;
+            align-items: center;
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #1e90ff;
+            margin-right: 30px;
+            box-shadow: 0 0 20px rgba(30, 144, 255, 0.5);
+        }
+        
+        .profile-info h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #1e40ffc0;
+        }
+        
+        .profile-info h2 {
+            font-size: 1.5rem;
+            font-weight: normal;
+            margin-bottom: 5px;
+        }
+        
+        .profile-info p {
+            font-size: 1rem;
+            opacity: 0.8;
+        }
+        
+        section {
+            padding: 40px 0;
+        }
+        
+        section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #1e22ff81;
+            border-bottom: 2px solid #1e90ff;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+        
+        .about p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            margin-bottom: 15px;
+            max-width: 800px;
+        }
+        
+        .education {
+            margin-top: 20px;
+        }
+        
+        .education-item {
+            background: rgba(30, 144, 255, 0.1);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border-left: 4px solid #1e90ff;
+        }
+        
+        .education-item h3 {
+            font-size: 1.3rem;
+            margin-bottom: 5px; 
+        }
+        
+        .education-item p {
+            opacity: 0.8;
+        }
+
+        .skills {
+            background: rgba(30, 90, 255, 0.252);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border-left: 4px solid #1e1eff84;
+        }
+        
+        .skills h3 {
+            font-size: 1.3rem;
+            margin-bottom: 5px; 
+        }
+        
+        .skills p {
+            opacity: 0.8;
+        }
+
+        .projects {
+            margin-top: 15px;
+        }
+        
+        .projects {
+            background: rgba(30, 176, 255, 0.303);
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border-left: 4px solid #1e8fff00;
+        }
+        
+        .projects h3 {
+            font-size: 1.3rem;
+            margin-bottom: 6px; 
+        }
+        
+        .projects p {
+            opacity: 0.6;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            border-top: 2px solid #1e90ff;
+            margin-top: 40px;
+        }
+        
+        @media (max-width: 768px) {
+            header {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            .profile {
+                flex-direction: column;
+                margin-bottom: 20px;
+            }
+            
+            .profile-img {
+                margin-right: 0;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="profile">
+                <img src="C:\Users\hp\Desktop\CT.jpeg" alt="Neha Dhanawade" class="profile-img">
+                <div class="profile-info">
+                    <h1>Neha Dhanawade</h1>
+                    <h2>Mechanical Engineering Student</h2>
+                    <p>MIT Academy of Engineering, Pune</p>
+                </div>
+            </div>
+        </header>
+        
+        <section class="about">
+            <h2>About Me</h2>
+            <p><i>Hello! I'm Neha Dhanawade, a passionate Mechanical Engineering student at MIT Academy of Engineering. I'm currently a first year student very passionate about my work. I'm dedicated to learn and apply engineering principles to solve real-world problems.</i></p>
+            <p><i>My academic journey has equipped me with strong technical skills and a problem-solving mindset. I'm particularly interested in designing, prototyping, building innovative ideas. I have always been dedicated towards my work.</i></p>
+            <h2>Student and optimist</h2>
+                <ul><h4>
+                    <li><b>Birthdate</b>:09/02/2006</li> 
+                    <li><b>Age</b>:18</li>
+                    <li><b>Phone</b>:9309354587</li>
+                    <li><b>Email</b>:nehadhanawade92006@gmail.com</li>
+                </h4></ul>
+            <p><i>As a first year student, I have immense passion for mechanical engineering. I tend to be perfectionist and through my leadership skills and curious mind I ought to strive for better and make most of my academic journey.</i></p>
+        </section>
+        
+        <section class="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Bachelor of Engineering in Mechanical Engineering</h3>
+                <p>MIT Academy of Engineering, Pune</p>
+                <p>First Year: 2024-25</p>
+            </div>
+            <div class="education-item">
+                <h3>Higher Secondary Certificate (HSC)</h3>
+                <p>[Savkar College], [Satara]</p>
+                <p>2023-24</p>
+            </div>
+            <div class="education-item">
+                <h3>Secondary School Certificate (CBSE)</h3>
+                <p>[Universal Knowledge School], [Satara]</p>
+                <p>Year of Completion: 2022</p>
+            </div>
+        </section>
+        
+        <section class="skills">
+            <h2>Skills</h2>
+            <h3>These are the skills I have learnt until now and I tend to learn more skills</h3>
+            <div class="skills">
+                <h3>C Language</h3>
+                <p>MIT Academy of Engineering, Pune</p>
+            </div>
+            <div class="skills">
+                <h3>Python</h3>
+                <p>MIT Academy of Engineering, Pune</p>
+            </div>
+            <div class="skills">
+                <h3>Fussion</h3>
+                <p>MIT Academy of Engineering, Pune</p>
+            </div>
+            <div class="skills">
+                <h3>Autocad</h3>
+                <p>MIT Academy of Engineering, Pune</p>
+            </div>
+            <div class="skills">
+                <h3>HTML</h3>
+                <p>MIT Academy of Engineering, Pune</p>
+            </div>
+            <div class="skills">
+                <h3>Engineering drawing</h3>
+                <p>MIT Academy of Engineering, Pune</p>
+            </div>
+        </section>
+
+
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <p>Being a mechanical engineer, I have done few projects in my ongoing first year curriculum, it gave me broad understanding about the topics. </p>
+            <div class="projects">
+                <h3><b>Hexagonal spacing battery casing</b></h3>
+                <p>The battery casing was used for reducing heat and was accessible.</p>
+            </div> 
+            <div class="projects">
+                <h3>Girls safety kit with smart jewellery</h3>
+                <p>The compact safety kit consists of all essential tools and mechanism which would ensure safety and is easy to use and access. Smart jewellery consists of gps system secretly bounded within it to ensure location when in danger. </p>
+            </div>
+            <div class="projects">
+                <h3>Cable organiser</h3>
+                <p>A cable organiser uses spring mechanism and casing which would store excessive cables and wires safety and we can have the desired length using coil and recoil mechanism.</p>
+            </div>
+            <div class="projects">
+                <h3>Roll cage for drones</h3>
+                <p>The roll cage in the drones ensures safety of the drone during obstacles and protects the sensitive electronic components in drones.</p>
+            </div>
+        </section>
+
+        <section class="Achievements">
+            <h2>Achievements</h2>
+            <h3><p><i>Being a first year mechanical engineering student, I've achieved a strong academic standing in foundational engineering courses, demonstrating a solid grasp of core principles.</i></p></h3>
+            <ol><h3>
+                <li><b>PYTHON 1</b>:I have successfully completed CISCO certification of "Python_Essentials_1"</li>
+                <li><b>PYTHON 2</b>:I have successfully completed CISCO certification of "Python_Essentials_2"</li>
+                <li><b>NASSCOM</b>:I have successfully completed NASSCOM certification of "Digital 101"</li>
+                <li><b>Drone Club</b>:I am a member of drone club, MIT AOE.</li>
+            </h3></ol>
+        </section>
+
+        <h2> THANK YOU!</h2>
+
+
+        <footer>
+            <p>&copy; 2023 Neha Dhanawade. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
